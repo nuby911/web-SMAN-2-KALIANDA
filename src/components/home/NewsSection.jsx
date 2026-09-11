@@ -35,7 +35,7 @@ export function NewsSection() {
               Berita & Kegiatan Terkini
             </h2>
             <p className="text-slate-500 text-sm mt-1">
-              Ikuti kabar pencapaian siswa, pengumuman resmi, dan dinamika kegiatan kampus.
+              Ikuti kabar pencapaian siswa, pengumuman resmi, dan dinamika kegiatan sekolah.
             </p>
           </div>
 

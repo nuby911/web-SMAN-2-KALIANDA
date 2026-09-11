@@ -250,7 +250,7 @@ export default function PPDBPage() {
     {
       name: "Jalur Zonasi Domisili",
       quota: "Kuota: 45% (135 Kursi)",
-      desc: "Berdasarkan jarak radius domisili resmi Kartu Keluarga (KK) ke lokasi kampus SMAN 2 Kalianda di Desa Kedaton, Kalianda, Kabupaten Lampung Selatan.",
+      desc: "Berdasarkan jarak radius domisili resmi Kartu Keluarga (KK) ke lokasi sekolah SMAN 2 Kalianda di Desa Kedaton, Kalianda, Kabupaten Lampung Selatan.",
       color: "border-royal-200 bg-royal-50/40 text-royal-900"
     },
     {

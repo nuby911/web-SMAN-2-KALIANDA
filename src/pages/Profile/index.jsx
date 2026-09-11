@@ -30,7 +30,7 @@ export default function ProfilePage() {
     { label: "Nomor SK Pendirian", value: siteConfig.skPendirian },
     { label: "Jumlah Rombongan Belajar (Rombel)", value: siteConfig.rombel },
     { label: "Kurikulum yang Digunakan", value: "Kurikulum Merdeka & Sekolah Model Pembelajaran Mendalam (PM) / Koding (KKA)" },
-    { label: "Luas Lahan & Kawasan Kampus", value: `${siteConfig.luasTanah} (Kampus Hijau Asri)` },
+    { label: "Luas Lahan & Kawasan Sekolah", value: `${siteConfig.luasTanah} (Sekolah Hijau Asri)` },
     { label: "Alamat Lengkap", value: siteConfig.kontak.alamat },
     { label: "Kontak Telepon & WhatsApp", value: `${siteConfig.kontak.telepon} / ${siteConfig.kontak.teleponKantor}` },
     { label: "Email Resmi", value: `${siteConfig.kontak.email} / ${siteConfig.kontak.emailAlternatif}` },
@@ -49,7 +49,7 @@ export default function ProfilePage() {
           "Akreditasi A Unggul (Nilai: 96)",
           "Sekolah Model PM & Koding",
           "Sekolah Adiwiyata Lampung",
-          "Kampus 2,6 Hektar"
+          "Kawasan Sekolah 2,6 Hektar"
         ]}
       />
 
@@ -213,7 +213,7 @@ export default function ProfilePage() {
         <section className="space-y-8">
           <div>
             <span className="text-xs font-bold text-royal-600 uppercase tracking-wider">
-              Infrastruktur Kampus 2,6 Ha
+              Infrastruktur Sekolah 2,6 Ha
             </span>
             <h2 className="text-2xl sm:text-3xl font-black text-navy-900 tracking-tight mt-1">
               Sarana & Prasarana SMAN 2 Kalianda

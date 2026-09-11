@@ -28,7 +28,7 @@ Kepala SMAN 2 Kalianda, Bapak Herwansyah, S.Pd., M.Pd., menegaskan bahwa integra
     readTime: "3 menit baca",
     thumbnail: "https://storage.schoolmedia.id/01-cms-website/smanegeri2kalianda.sch.id/editor/6a99660e4d97eWhatsApp_Image_2026-09-03_at_19.19.21_%282%29.jpeg",
     excerpt: "Meneguhkan komitmen bersama seluruh warga sekolah untuk menciptakan lingkungan pendidikan yang aman, nyaman, dan bebas dari segala bentuk perundungan.",
-    content: `Kalianda — SMAN 2 Kalianda menyelenggarakan Apel Tematik Pencegahan Kekerasan terhadap Anak di lapangan upacara utama kampus. Apel ini diikuti oleh jajaran pimpinan, dewan guru, staf tata usaha, serta seluruh peserta didik kelas X, XI, dan XII.
+    content: `Kalianda — SMAN 2 Kalianda menyelenggarakan Apel Tematik Pencegahan Kekerasan terhadap Anak di lapangan upacara utama sekolah. Apel ini diikuti oleh jajaran pimpinan, dewan guru, staf tata usaha, serta seluruh peserta didik kelas X, XI, dan XII.
 
 Kegiatan ini merupakan langkah nyata dalam mewujudkan Sekolah Ramah Anak dan membumikan semangat Sakai Sambaiyan yang mengedepankan gotong royong, saling menyayangi, dan menjaga martabat sesama teman. Dalam deklarasi bersama, perwakilan siswa menandatangani komitmen anti-kekerasan dan anti-bullying di hadapan kepala sekolah.`
   },
@@ -55,7 +55,7 @@ Pihak sekolah memberikan apresiasi tinggi dan fasilitas bimbingan intensif dari 
     author: "Tim Adiwiyata SMANDAKA",
     readTime: "4 menit baca",
     thumbnail: "https://s3.schoolmedia.id/01-cms-website/smanegeri2kalianda.sch.id/editor/698fd6bb87716piagam_Adiwiyata__%281%29_page-0001.jpg",
-    excerpt: "Pengakuan bergengsi atas komitmen pelestarian lingkungan hidup berkelanjutan dan penataan kawasan kampus seluas 2,6 hektar yang asri dan hijau.",
+    excerpt: "Pengakuan bergengsi atas komitmen pelestarian lingkungan hidup berkelanjutan dan penataan kawasan sekolah seluas 2,6 hektar yang asri dan hijau.",
     content: `Kalianda — Kerja keras seluruh warga SMAN 2 Kalianda dalam merawat kelestarian lingkungan berbuah manis dengan diraihnya piagam penghargaan Sekolah Adiwiyata Tingkat Provinsi Lampung.
 
 Sebagai sekolah yang memiliki area luas ±26.000 m², SMAN 2 Kalianda secara konsisten mengintegrasikan materi pendidikan lingkungan hidup dalam proses pembelajaran, pengelolaan bank sampah sekolah, budidaya tanaman obat keluarga (TOGA), biopori, dan gerakan pengurangan sampah plastik di kantin sekolah.`

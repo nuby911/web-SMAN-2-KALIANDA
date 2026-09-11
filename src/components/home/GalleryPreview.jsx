@@ -15,7 +15,7 @@ export function GalleryPreview() {
           <div>
             <span className="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-bold bg-emerald-50 text-emerald-700 border border-emerald-200 mb-2">
               <ImageIcon className="w-3.5 h-3.5 text-emerald-600" />
-              Dokumentasi Kampus
+              Dokumentasi Sekolah
             </span>
             <h2 className="text-2xl sm:text-3xl font-black text-navy-900 tracking-tight">
               Galeri Kegiatan & Fasilitas

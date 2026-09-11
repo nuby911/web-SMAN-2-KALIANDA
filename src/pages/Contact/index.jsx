@@ -62,7 +62,7 @@ export default function ContactPage() {
       <PageHero
         badge="Layanan Komunikasi & Informasi"
         title="Hubungi SMAN 2 Kalianda"
-        subtitle={`Pusat informasi publik, layanan terpadu satu pintu, pengaduan masyarakat, serta panduan lokasi kampus ${siteConfig.name} di Kalianda, Lampung Selatan.`}
+        subtitle={`Pusat informasi publik, layanan terpadu satu pintu, pengaduan masyarakat, serta panduan lokasi sekolah ${siteConfig.name} di Kalianda, Lampung Selatan.`}
         bgImage="https://s3.schoolmedia.id/01-cms-website/smanegeri2kalianda.sch.id/editor/6969e64196bc720250513_085627.jpg"
         chips={['Jl. Trans Sumatera, Kedaton, Kalianda', 'Senin - Jumat: 07.15 - 16.00 WIB', 'Layanan Terpadu Satu Pintu']}
       />
@@ -79,7 +79,7 @@ export default function ContactPage() {
                   <MapPin className="w-5 h-5" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-bold text-navy-900">Alamat Kampus</h4>
+                  <h4 className="text-sm font-bold text-navy-900">Alamat Sekolah</h4>
                   <p className="text-xs sm:text-sm text-slate-600 mt-1 leading-relaxed">
                     {siteConfig.kontak.alamat}
                   </p>
@@ -269,7 +269,7 @@ export default function ContactPage() {
             <div>
               <h3 className="text-lg font-bold text-navy-900 flex items-center gap-2">
                 <Building className="w-5 h-5 text-royal-600" />
-                <span>Peta Lokasi Kampus {siteConfig.name}</span>
+                <span>Peta Lokasi Sekolah {siteConfig.name}</span>
               </h3>
               <p className="text-xs text-slate-500 mt-0.5">
                 Jl. Trans Sumatera, Kedaton, Kec. Kalianda, Kab. Lampung Selatan — Akses jalan nasional utama yang strategis dan mudah dijangkau.

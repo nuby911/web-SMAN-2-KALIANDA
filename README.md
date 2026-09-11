@@ -22,7 +22,7 @@ Portal resmi **SMA Negeri 2 Kalianda** (dikenal sebagai **SMANDAKA**) merupakan 
 | **Akreditasi** | **A Unggul** (Nilai: 96, BAN-S/M) |
 | **SK Pendirian** | 0426/O/1991 (15 Juli 1991) |
 | **Kepala Sekolah** | Herwansyah, S.Pd., M.Pd. (NIP: 19740121 199603 1 001) |
-| **Luas Kampus** | ±26.000 m² (2,6 Hektar) di tepi Jalan Trans Sumatera |
+| **Luas Lahan Sekolah** | ±26.000 m² (2,6 Hektar) di tepi Jalan Trans Sumatera |
 | **Status Program** | Sekolah Unggul Prov. Lampung & Sekolah Adiwiyata Mandiri |
 | **Alamat** | Jl. Trans Sumatera, Desa Kedaton, Kec. Kalianda, Kab. Lampung Selatan, Lampung 35551 |
 
@@ -44,7 +44,7 @@ Portal resmi **SMA Negeri 2 Kalianda** (dikenal sebagai **SMANDAKA**) merupakan 
 - **Visi, Misi & 5 Core Values**: Prinsip Religius, Cerdas, Berkarakter, Berwawasan Lingkungan, dan Gotong Royong Sakai Sambaiyan.
 - **Tabel Data Pokok & Legalitas**: Informasi operasional lengkap, nomor SK, akreditasi, luas tanah, dan daya listrik.
 - **Direktori Guru & Tenaga Kependidikan**: Daftar profil pimpinan, wakil kepala sekolah, dewan guru pengampu mata pelajaran, gelar akademik, dan foto resmi.
-- **Fasilitas Kampus**: Pratinjau laboratorium komputer koding, laboratorium IPA (Fisika, Biologi, Kimia), panggung seni budaya, dan sarana olahraga.
+- **Fasilitas Sekolah**: Pratinjau laboratorium komputer koding, laboratorium IPA (Fisika, Biologi, Kimia), panggung seni budaya, dan sarana olahraga.
 
 #### 📰 Warta & Berita (News & Articles)
 - **Kategori Berita**: Prestasi Siswa, Akademik, Kegiatan Sekolah, dan Pengumuman Resmi.
@@ -88,7 +88,7 @@ Portal resmi **SMA Negeri 2 Kalianda** (dikenal sebagai **SMANDAKA**) merupakan 
 
 #### 📞 Kontak & Pengaduan (Contact Page)
 - Formulir pengiriman pesan/konsultasi langsung bagi wali murid dan masyarakat.
-- Peta lokasi interaktif (Google Maps) kampus SMAN 2 Kalianda di Desa Kedaton.
+- Peta lokasi interaktif (Google Maps) sekolah SMAN 2 Kalianda di Desa Kedaton.
 - Hotline resmi panitia PPDB, email sekolah, dan tautan akun media sosial.
 
 ---

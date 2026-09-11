@@ -55,10 +55,10 @@ export default function GalleryPage() {
     <div className="bg-slate-50 min-h-screen">
       <PageHero
         badge="Dokumentasi Visual & Kegiatan"
-        title="Galeri Foto & Memori Kampus SMANDAKA"
+        title="Galeri Foto & Memori Sekolah SMANDAKA"
         subtitle={`Dokumentasi visual dinamika kegiatan belajar, peringatan hari besar, fasilitas pendidikan, dan kebersamaan warga ${siteConfig.name}.`}
         bgImage="https://storage.schoolmedia.id/01-cms-website/smanegeri2kalianda.sch.id/galeri/6969b78651a0d__MG_4669.JPG"
-        chips={['Arsip Kegiatan Resmi', 'Dokumentasi Kampus Hijau 2,6 Ha', 'Pentas Seni & Prestasi']}
+        chips={['Arsip Kegiatan Resmi', 'Dokumentasi Sekolah Hijau 2,6 Ha', 'Pentas Seni & Prestasi']}
       />
 
       <div className="py-12 lg:py-16">

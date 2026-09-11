@@ -32,7 +32,7 @@ export default function ManageExtracurricular() {
     category: 'Olahraga',
     lead: 'Guru Pembina SMANDAKA',
     schedule: 'Jumat, 15.30 - 17.00 WIB',
-    location: 'Area Kampus SMAN 2 Kalianda',
+    location: 'Area Sekolah SMAN 2 Kalianda',
     membersCount: 35,
     thumbnail: 'https://s3.schoolmedia.id/01-cms-website/smanegeri2kalianda.sch.id/editor/698ff896e9240WhatsApp_Image_2026-02-14_at_11.20.43.jpeg',
     desc: '',

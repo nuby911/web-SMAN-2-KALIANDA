@@ -22,7 +22,7 @@ export function StatsWidget() {
     {
       id: 3,
       value: "2,6 Ha",
-      label: "Kawasan Kampus Hijau",
+      label: "Kawasan Sekolah Hijau",
       subtext: "Lahan asri 26.000 m² berpredikat Sekolah Adiwiyata",
       icon: Building2,
     },

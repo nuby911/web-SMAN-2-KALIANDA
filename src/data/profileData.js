@@ -14,7 +14,7 @@ export const galleryData = [
   },
   {
     id: 2,
-    title: "Gerbang & Kawasan Hijau Kampus SMAN 2 Kalianda",
+    title: "Gerbang & Kawasan Hijau Sekolah SMAN 2 Kalianda",
     category: "Fasilitas",
     type: "image",
     date: "2026",
@@ -174,7 +174,7 @@ export const facilitiesData = [
   {
     name: "Kawasan Edukasi Adiwiyata (2,6 Hektar)",
     category: "Lingkungan Hidup",
-    desc: "Kebun sekolah hijau, taman tanaman obat keluarga (TOGA), sistem biopori, dan lingkungan kampus asri nan rindang.",
+    desc: "Kebun sekolah hijau, taman tanaman obat keluarga (TOGA), sistem biopori, dan lingkungan sekolah asri nan rindang.",
     icon: "Building"
   },
   {

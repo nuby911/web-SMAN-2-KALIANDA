@@ -23,7 +23,7 @@ export const ppdbWaves = [
     status: "Segera Dibuka",
     badge: "royal",
     quota: "45% (135 Siswa)",
-    desc: "Berdasarkan jarak radius domisili resmi Kartu Keluarga (KK) ke lokasi kampus SMAN 2 Kalianda di Desa Kedaton, Kalianda, Lampung Selatan."
+    desc: "Berdasarkan jarak radius domisili resmi Kartu Keluarga (KK) ke lokasi sekolah SMAN 2 Kalianda di Desa Kedaton, Kalianda, Lampung Selatan."
   },
   {
     id: "wave-3",

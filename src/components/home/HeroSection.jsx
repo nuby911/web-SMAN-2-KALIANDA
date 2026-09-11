@@ -124,7 +124,7 @@ export function HeroSection() {
               <div className="relative h-64 sm:h-72 overflow-hidden bg-navy-900">
                 <img
                   src="https://s3.schoolmedia.id/01-cms-website/smanegeri2kalianda.sch.id/editor/6969e64196bc720250513_085627.jpg"
-                  alt={`Kampus ${siteConfig.name}`}
+                  alt={`Gedung ${siteConfig.name}`}
                   className="w-full h-full object-cover object-center"
                   onError={(e) => {
                     e.target.src = "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?auto=format&fit=crop&q=80&w=900";
@@ -134,13 +134,13 @@ export function HeroSection() {
 
                 {/* Clean Top Badge */}
                 <div className="absolute top-4 right-4 bg-navy-900/90 text-white text-xs font-semibold px-3 py-1 rounded-md border border-navy-700 shadow-xs">
-                  Kampus Asri 2,6 Hektar
+                  Kawasan Asri 2,6 Hektar
                 </div>
 
                 {/* Bottom Overlay Text */}
                 <div className="absolute bottom-4 left-4 right-4 text-white">
                   <span className="text-[11px] font-bold uppercase tracking-wider text-royal-300">
-                    KAMPUS SMAN 2 KALIANDA
+                    SMA NEGERI 2 KALIANDA
                   </span>
                   <h4 className="text-base font-bold leading-snug text-white mt-0.5">
                     Membina Generasi Religius & Berbudaya Lingkungan

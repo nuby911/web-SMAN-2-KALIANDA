@@ -68,7 +68,7 @@ export const extracurricularData = [
     category: "Olahraga",
     lead: "Guru Penjasorkes SMANDAKA",
     schedule: "Selasa & Sabtu, 16.00 - 18.00 WIB",
-    location: "Lapangan Olahraga Kampus SMAN 2 Kalianda",
+    location: "Lapangan Olahraga SMAN 2 Kalianda",
     membersCount: 40,
     achievements: ["Juara IV Futsal Pelajar Titiwangi Cup V 2026", "Finalis Turnamen Antar Pelajar Kalianda"],
     thumbnail: "https://s3.schoolmedia.id/01-cms-website/smanegeri2kalianda.sch.id/editor/699270a05d286WhatsApp_Image_2026-02-16_at_08.18.14.jpeg",
