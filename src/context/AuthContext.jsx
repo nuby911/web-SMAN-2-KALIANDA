@@ -10,7 +10,7 @@ const REGISTERED_ACCOUNTS = [
     id: 'usr-admin-1',
     username: 'admin',
     password: 'admin123',
-    name: 'Administrator Humas & TI',
+    name: 'Admin Humas & TI',
     role: 'Super Admin CMS',
     email: 'admin@smanegeri2kalianda.sch.id',
     nip: '19740121 199603 1 001',
