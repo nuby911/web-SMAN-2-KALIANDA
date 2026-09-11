@@ -119,6 +119,12 @@ Akses khusus bagi staf pengelola dan Humas TI sekolah melalui rute `/admin/login
   - Atur jadwal gelombang pendaftaran dengan datepicker tanggal buka (`startDate`) dan tanggal tutup (`endDate`).
   - Sakelar operasional utama: Buka / Tutup pendaftaran online secara global dalam satu klik.
   - Sunting teks pengumuman berjalan beranda dan catatan persyaratan berkas wajib secara *real-time*.
+- **Manajemen Pesan & Permohonan Informasi (`/admin/pesan`)**:
+  - Integrasi langsung formulir publik *Kirim Pesan / Permohonan Informasi* halaman kontak ke panel admin.
+  - Notifikasi badge pesan baru (*unread counter*) pada navigasi sidebar dan ringkasan dashboard.
+  - Filter kategori pesan (*Pendaftaran PPDB*, *Informasi Umum*, *Layanan Akademik*, *Kemitraan*, *Pengaduan Masyarakat*) dan status (*Baru*, *Dibaca*, *Dibalas*).
+  - Modal telaah pesan lengkap dengan tombol aksi 1-klik *Chat WhatsApp* atau *Kirim Email* ke pemohon.
+  - Form pencatatan tindak lanjut/balasan admin resmi serta fitur ekspor rekapan ke CSV.
 - **Pengaturan & Mode Demo (`/admin/pengaturan`)**:
   - Monitoring kapasitas penyimpanan browser (*LocalStorage Engine*).
   - Fitur **Factory Reset / Reset Data Demo** untuk mengembalikan seluruh konten ke data awal jika diperlukan.

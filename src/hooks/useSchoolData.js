@@ -6,6 +6,7 @@ import {
   getStoredPPDBWaves,
   getStoredPPDBInfo,
 } from '@/services/ppdbService';
+import { getStoredMessages } from '@/services/messageService';
 
 /**
  * Custom React Hook untuk sinkronisasi data sekolah secara real-time (multi-tab & multi-komponen)
@@ -16,6 +17,7 @@ export function useSchoolData() {
   const [ppdbRegistrations, setPpdbRegistrations] = useState(() => getStoredPPDBRegistrations());
   const [ppdbWaves, setPpdbWaves] = useState(() => getStoredPPDBWaves());
   const [ppdbInfo, setPpdbInfo] = useState(() => getStoredPPDBInfo());
+  const [messages, setMessages] = useState(() => getStoredMessages());
 
   useEffect(() => {
     const handleSync = () => {
@@ -24,6 +26,7 @@ export function useSchoolData() {
       setPpdbRegistrations(getStoredPPDBRegistrations());
       setPpdbWaves(getStoredPPDBWaves());
       setPpdbInfo(getStoredPPDBInfo());
+      setMessages(getStoredMessages());
     };
 
     window.addEventListener('smandaka_data_changed', handleSync);
@@ -41,12 +44,14 @@ export function useSchoolData() {
     ppdbRegistrations,
     ppdbWaves,
     ppdbInfo,
+    messages,
     refreshData: () => {
       setNews(getStoredNews());
       setExtracurriculars(getStoredExtracurriculars());
       setPpdbRegistrations(getStoredPPDBRegistrations());
       setPpdbWaves(getStoredPPDBWaves());
       setPpdbInfo(getStoredPPDBInfo());
+      setMessages(getStoredMessages());
     },
   };
 }

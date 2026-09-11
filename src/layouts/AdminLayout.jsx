@@ -13,10 +13,12 @@ import {
   Database,
   LogOut,
   UserCheck,
-  CalendarDays
+  CalendarDays,
+  Mail,
 } from 'lucide-react';
 import { siteConfig } from '@/config';
 import { useAuth } from '@/context/AuthContext';
+import { useSchoolData } from '@/services';
 
 export function AdminLayout() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -24,6 +26,8 @@ export function AdminLayout() {
   const location = useLocation();
   const navigate = useNavigate();
   const { user, logout } = useAuth();
+  const { messages } = useSchoolData();
+  const unreadMessagesCount = messages.filter((m) => m.status === 'Baru').length;
 
   const handleLogoutClick = () => {
     setShowLogoutModal(true);
@@ -41,6 +45,7 @@ export function AdminLayout() {
     { name: 'Ekstrakurikuler', href: '/admin/ekstrakurikuler', icon: Award },
     { name: 'Pendaftar PPDB', href: '/admin/ppdb', icon: Users, exact: true },
     { name: 'Manajemen PPDB & SPMB', href: '/admin/ppdb-settings', icon: CalendarDays },
+    { name: 'Pesan & Informasi', href: '/admin/pesan', icon: Mail, badge: unreadMessagesCount },
     { name: 'Pengaturan & Demo', href: '/admin/pengaturan', icon: Settings },
   ];
 
@@ -55,6 +60,7 @@ export function AdminLayout() {
     if (location.pathname.startsWith('/admin/ekstrakurikuler')) return 'Manajemen Ekstrakurikuler';
     if (location.pathname.startsWith('/admin/ppdb-settings')) return 'Manajemen PPDB & SPMB';
     if (location.pathname.startsWith('/admin/ppdb')) return 'Data Pendaftar PPDB Masuk';
+    if (location.pathname.startsWith('/admin/pesan')) return 'Pesan Masuk & Permohonan Informasi';
     if (location.pathname.startsWith('/admin/pengaturan')) return 'Pengaturan Sistem & Demo';
     return 'Admin Panel';
   };
@@ -96,14 +102,21 @@ export function AdminLayout() {
               <NavLink
                 key={item.name}
                 to={item.href}
-                className={`flex items-center gap-3 px-3.5 py-2.5 rounded-xl text-xs font-semibold transition-all ${
+                className={`flex items-center justify-between px-3.5 py-2.5 rounded-xl text-xs font-semibold transition-all ${
                   isActive
                     ? 'bg-royal-600 text-white shadow-sm'
                     : 'text-slate-300 hover:bg-navy-800 hover:text-white'
                 }`}
               >
-                <Icon className={`w-4 h-4 shrink-0 ${isActive ? 'text-white' : 'text-slate-400'}`} />
-                <span>{item.name}</span>
+                <div className="flex items-center gap-3">
+                  <Icon className={`w-4 h-4 shrink-0 ${isActive ? 'text-white' : 'text-slate-400'}`} />
+                  <span>{item.name}</span>
+                </div>
+                {Boolean(item.badge) && (
+                  <span className="px-1.5 py-0.5 rounded-full text-[10px] font-bold bg-rose-500 text-white animate-pulse">
+                    {item.badge}
+                  </span>
+                )}
               </NavLink>
             );
           })}
@@ -143,12 +156,19 @@ export function AdminLayout() {
                 key={item.name}
                 to={item.href}
                 onClick={() => setMobileMenuOpen(false)}
-                className={`flex items-center gap-3 px-3 py-2 rounded-lg text-xs font-semibold ${
+                className={`flex items-center justify-between px-3 py-2 rounded-lg text-xs font-semibold ${
                   isActive ? 'bg-royal-600 text-white' : 'text-slate-300 hover:bg-navy-800'
                 }`}
               >
-                <Icon className="w-4 h-4" />
-                <span>{item.name}</span>
+                <div className="flex items-center gap-3">
+                  <Icon className="w-4 h-4" />
+                  <span>{item.name}</span>
+                </div>
+                {Boolean(item.badge) && (
+                  <span className="px-1.5 py-0.5 rounded-full text-[10px] font-bold bg-rose-500 text-white">
+                    {item.badge}
+                  </span>
+                )}
               </NavLink>
             );
           })}

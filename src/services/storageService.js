@@ -8,6 +8,7 @@ export const STORAGE_KEYS = {
   PPDB: 'smandaka_ppdb_registrations_data',
   PPDB_WAVES: 'smandaka_ppdb_waves_data',
   PPDB_INFO: 'smandaka_ppdb_info_data',
+  MESSAGES: 'smandaka_contact_messages_data',
 };
 
 /**
@@ -29,5 +30,6 @@ export function resetAllToDefault() {
   localStorage.removeItem(STORAGE_KEYS.PPDB);
   localStorage.removeItem(STORAGE_KEYS.PPDB_WAVES);
   localStorage.removeItem(STORAGE_KEYS.PPDB_INFO);
+  localStorage.removeItem(STORAGE_KEYS.MESSAGES);
   notifyStorageChange();
 }

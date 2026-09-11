@@ -15,6 +15,7 @@ import {
   ManageExtracurricular,
   ManagePPDB,
   ManagePPDBSettings,
+  ManageMessages,
   AdminSettings,
   AdminLogin,
 } from '@/pages';
@@ -80,6 +81,7 @@ export function AppRoutes() {
           <Route path="ekstrakurikuler" element={<ManageExtracurricular />} />
           <Route path="ppdb" element={<ManagePPDB />} />
           <Route path="ppdb-settings" element={<ManagePPDBSettings />} />
+          <Route path="pesan" element={<ManageMessages />} />
           <Route path="pengaturan" element={<AdminSettings />} />
         </Route>
       </Routes>

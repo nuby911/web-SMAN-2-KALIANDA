@@ -18,5 +18,8 @@ export * from './extracurricularService';
 // Layanan PPDB & SPMB
 export * from './ppdbService';
 
+// Layanan Pesan Kontak & Permohonan Informasi
+export * from './messageService';
+
 // Reaktif Hooks
 export { useSchoolData } from '@/hooks/useSchoolData';

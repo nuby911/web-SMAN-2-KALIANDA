@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { siteConfig } from '@/config';
 import { Card, Badge, Button, Toast, PageHero } from '@/components';
+import { createMessage } from '@/services';
 import {
   MapPin,
   Phone,
@@ -33,17 +34,26 @@ export default function ContactPage() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    if (!formData.nama || !formData.pesan) {
+    if (!formData.nama.trim() || !formData.pesan.trim()) {
       alert('Nama dan isi pesan wajib diisi.');
       return;
     }
 
     setIsSubmitting(true);
     setTimeout(() => {
+      const created = createMessage({
+        nama: formData.nama,
+        email: formData.email,
+        telepon: formData.telepon,
+        kategori: formData.kategori,
+        subjek: formData.subjek,
+        pesan: formData.pesan,
+      });
+
       setIsSubmitting(false);
       setToastMessage({
-        title: 'Pesan Terkirim!',
-        message: 'Terima kasih, pesan Anda telah diteruskan ke layanan Tata Usaha dan akan dibalas dalam 1x24 jam kerja.',
+        title: 'Pesan Berhasil Terkirim!',
+        message: `Terima kasih! Tiket (${created.ticketNumber}) telah diteruskan langsung ke Portal Admin Humas & Tata Usaha sekolah.`,
         type: 'success',
       });
       setFormData({
@@ -54,7 +64,7 @@ export default function ContactPage() {
         subjek: '',
         pesan: '',
       });
-    }, 800);
+    }, 600);
   };
 
   return (
