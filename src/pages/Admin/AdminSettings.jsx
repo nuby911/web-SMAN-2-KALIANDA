@@ -3,6 +3,7 @@ import {
   RotateCcw,
   Database,
   CheckCircle2,
+  Cloud,
 } from 'lucide-react';
 import { useSchoolData, resetAllToDefault } from '@/services';
 import { Toast } from '@/components';

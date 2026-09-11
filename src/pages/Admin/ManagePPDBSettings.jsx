@@ -11,6 +11,7 @@ import {
   Power,
   Users,
   Clock,
+  ExternalLink,
 } from 'lucide-react';
 import {
   useSchoolData,

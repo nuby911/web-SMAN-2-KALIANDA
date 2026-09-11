@@ -4,6 +4,7 @@ import {
   Search,
   Edit2,
   Trash2,
+  ExternalLink,
 } from 'lucide-react';
 import { useSchoolData, createNews, updateNews, deleteNews } from '@/services';
 import { Modal, Toast, ImageUploadPicker } from '@/components';

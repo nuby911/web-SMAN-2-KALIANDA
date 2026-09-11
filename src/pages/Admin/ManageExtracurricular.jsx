@@ -6,7 +6,8 @@ import {
   Trash2,
   Users,
   Clock,
-  MapPin
+  MapPin,
+  ExternalLink,
 } from 'lucide-react';
 import {
   useSchoolData,
