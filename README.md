@@ -295,7 +295,7 @@ Website ini adalah Single Page Application (SPA) berbasis client-side rendering 
 Website ini dirancang, dibangun, dan dikembangkan oleh:
 
 - **Nama**: Rubby Ibnu Anantara
-- **Status**: Mahasiswa Program Studi **D3/D4 Manajemen Informatika (MI)**
+- **Status**: Mahasiswa Program Studi **D3 Manajemen Informatika (MI)**
 - **Institusi**: **Politeknik Negeri Lampung (Polinela)**
 - **Email**: [rubbyibnu17@gmail.com](mailto:rubbyibnu17@gmail.com)
 
@@ -308,7 +308,7 @@ Proyek ini dilisensikan di bawah lisensi [MIT License](LICENSE). Anda bebas meng
 ---
 
 <p align="center">
-  Dibangun dengan ❤️ dan dedikasi oleh <strong>Rubby Ibnu Anantara</strong><br>
+  Dibuat oleh <strong>Rubby Ibnu Anantara</strong><br>
   <em>Mahasiswa Manajemen Informatika (MI) — Politeknik Negeri Lampung (Polinela)</em><br>
   untuk kemajuan digitalisasi <strong>SMA Negeri 2 Kalianda (SMANDAKA)</strong>.<br>
   <em>Maju Bersama, Hebat Semua — Menuju Indonesia Emas 2045.</em>
