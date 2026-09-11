@@ -10,8 +10,6 @@ import {
   Calendar,
   CheckCircle2,
   Clock,
-  ExternalLink,
-  Sliders,
 } from 'lucide-react';
 import { useSchoolData, updatePPDBStatus, deletePPDBRegistration } from '@/services';
 import { Modal, Toast, Badge } from '@/components';

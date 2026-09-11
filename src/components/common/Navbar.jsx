@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink, Link, useLocation } from 'react-router-dom';
-import { Menu, X, Shield, ShieldCheck, Search, ChevronRight, PhoneCall, GraduationCap, UserCheck } from 'lucide-react';
+import { Menu, X, Shield, ShieldCheck, Search, ChevronRight, PhoneCall, GraduationCap } from 'lucide-react';
 import { siteConfig } from '../../config/siteConfig';
 import { Button } from '../ui/Button';
 

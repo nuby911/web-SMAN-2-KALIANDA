@@ -10,9 +10,7 @@ import {
   RotateCcw,
   Power,
   Users,
-  ExternalLink,
   Clock,
-  Sparkles,
 } from 'lucide-react';
 import {
   useSchoolData,

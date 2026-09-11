@@ -45,13 +45,5 @@ export function useSchoolData() {
     ppdbWaves,
     ppdbInfo,
     messages,
-    refreshData: () => {
-      setNews(getStoredNews());
-      setExtracurriculars(getStoredExtracurriculars());
-      setPpdbRegistrations(getStoredPPDBRegistrations());
-      setPpdbWaves(getStoredPPDBWaves());
-      setPpdbInfo(getStoredPPDBInfo());
-      setMessages(getStoredMessages());
-    },
   };
 }

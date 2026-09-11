@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import {
   RotateCcw,
   Database,
-  Cloud,
   CheckCircle2,
 } from 'lucide-react';
 import { useSchoolData, resetAllToDefault } from '@/services';

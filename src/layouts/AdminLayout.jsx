@@ -9,10 +9,7 @@ import {
   ExternalLink,
   Menu,
   X,
-  ShieldCheck,
-  Database,
   LogOut,
-  UserCheck,
   CalendarDays,
   Mail,
 } from 'lucide-react';

@@ -120,7 +120,6 @@ export function AuthProvider({ children }) {
     isLoading,
     login,
     logout,
-    registeredAccounts: REGISTERED_ACCOUNTS.map(({ password: _, ...rest }) => rest)
   };
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;

@@ -9,7 +9,6 @@ import {
   CheckCircle2,
   Clock,
   Mail,
-  MessageSquare,
   Eye,
 } from 'lucide-react';
 import { useSchoolData } from '@/services';
