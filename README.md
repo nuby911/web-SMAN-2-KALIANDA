@@ -161,7 +161,14 @@ Web-sekolah/
 │   ├── context/                 # State management global
 │   │   ├── AuthContext.jsx      # Autentikasi sesi admin portal CMS
 │   │   └── index.js
+│   ├── data/                    # Master Mock & Initial Seed Data Terpisah
+│   │   ├── newsData.js          # Data awal berita & pengumuman
+│   │   ├── extracurricularData.js # Data awal ekstrakurikuler
+│   │   ├── profileData.js       # Data guru, fasilitas, dan galeri kegiatan
+│   │   ├── ppdbData.js          # Data gelombang dan formulir PPDB
+│   │   └── index.js             # Central data barrel export
 │   ├── hooks/                   # Custom React Hooks
+│   │   ├── useSchoolData.js     # Live sync data hook antar komponen/tab
 │   │   ├── useScrollReveal.js   # Efek animasi saat elemen masuk viewport
 │   │   └── index.js
 │   ├── layouts/                 # Template tata letak halaman
@@ -181,9 +188,13 @@ Web-sekolah/
 │   │   └── index.js
 │   ├── routes/                  # Konfigurasi routing aplikasi
 │   │   └── AppRoutes.jsx
-│   ├── services/                # Layanan data reactive & LocalStorage CRUD
-│   │   ├── dataService.js       # Engine data PPDB, berita, ekskul, jadwal gelombang
-│   │   └── index.js
+│   ├── services/                # Layanan Bisnis & CRUD Modular
+│   │   ├── newsService.js       # Operasi data berita
+│   │   ├── extracurricularService.js # Operasi data ekstrakurikuler
+│   │   ├── ppdbService.js       # Operasi data & jadwal gelombang PPDB
+│   │   ├── storageService.js    # Persistence engine & event bus
+│   │   ├── dataService.js       # Facade modul terpusat
+│   │   └── index.js             # Central services barrel export
 │   ├── styles/                  # Styling global
 │   │   └── index.css            # Tailwind directives, custom scrollbar & animations
 │   ├── utils/                   # Formatter tanggal & utility helper
